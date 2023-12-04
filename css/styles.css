@@ -170,7 +170,7 @@ body {
 
 /* Portfolio.html */
 
-.first-one-button {
+/* .first-one-button { 
   color: var(--iris);
   background-color: var(--cloud);
   font-family: "Roboto", sans-serif;
@@ -181,7 +181,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
-}
+}*/
 
 .sec-one-button {
   color: var(--iris);
