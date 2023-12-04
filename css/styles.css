@@ -29,7 +29,7 @@ body {
 }
 
 .hero-content {
-  background-color: var(--navy-blue);
+  background-color: #2e2f42;
   color: var(--white);
   text-align: center;
   font-size: 56px;
