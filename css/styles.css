@@ -171,6 +171,8 @@ body {
 
 .first-one-button {
   color: var(--iris);
+  background-color: var(--cloud);
+  font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -184,6 +186,8 @@ body {
 
 .sec-one-button {
   color: var(--iris);
+  background-color: var(--cloud);
+  font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -197,14 +201,14 @@ body {
 
 .first-one-button:hover,
 .first-one-button:focus {
-  background-color: var(--ocean);
-  color: var(--ocean);
+  background-color: var(--white);
+  color: var(--white);
 }
 
 .sec-one-button:hover,
 .sec-one-button:focus {
   background-color: var(--white);
-  color: var(--iris);
+  color: var(--white);
 }
 
 .footer-back {
