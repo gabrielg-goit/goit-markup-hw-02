@@ -4,14 +4,20 @@
   --navy-blue: #2e2f42;
   --cloud: #f4f4fd;
   --ocean: #404bbf;
-  --white: #fff;
+  --white: #ffffffff;
+  --cornflower: #e7e9fc;
   --text-font-family: "Roboto", sans-serif;
   --logo-font-family: "Raleway", sans-serif;
 }
 /* Global Styles */
 .body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--text-font-family);
   background-color: var(--white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
   color: #434455;
 }
 
@@ -74,6 +80,9 @@
   line-height: 111.111%;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+.team {
+  background-color: #ffffffff;
 }
 
 .part-one-logo {
