@@ -23,6 +23,10 @@
 
 /* Index.html */
 
+.adress-class {
+  font-style: normal;
+}
+
 .hero-content {
   background-color: var(--navy-blue);
   width: 1440px;
@@ -132,11 +136,10 @@
 }
 
 .nav-link:hover {
-  color: var(--iris);
+  color: var(--ocean);
 }
-
-.adress-link {
-  list-style-type: none;
+.nav-link:focus {
+  background-color: var(--ocean);
 }
 
 .adress-link {
@@ -147,6 +150,14 @@
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  list-style-type: none;
+}
+
+.adress-link:hover {
+  color: var(--ocean);
+}
+.adress-link:focus {
+  background-color: var(--ocean);
 }
 
 .footer-content {
