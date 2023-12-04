@@ -151,7 +151,7 @@
 /* Portfolio.html */
 
 .first-one-button {
-  color: var(--white);
+  color: var(--iris);
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -160,7 +160,6 @@
   letter-spacing: 0.64px;
   border-radius: 4px;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--white);
   cursor: pointer;
 }
 
@@ -174,14 +173,13 @@
   letter-spacing: 0.64px;
   border-radius: 4px;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--white);
   cursor: pointer;
 }
 
 .first-one-button:hover,
 .first-one-button:focus {
-  background-color: var(--iris);
-  color: var(--white);
+  background-color: var(--ocean);
+  color: var(--ocean);
 }
 
 .sec-one-button:hover,
