@@ -201,13 +201,13 @@ body {
 
 .first-one-button:hover,
 .first-one-button:focus {
-  background-color: var(--white);
+  background-color: var(--ocean);
   color: var(--white);
 }
 
 .sec-one-button:hover,
 .sec-one-button:focus {
-  background-color: var(--white);
+  background-color: var(--ocean);
   color: var(--white);
 }
 
