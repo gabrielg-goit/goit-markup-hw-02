@@ -9,6 +9,7 @@
   --text-font-family: "Roboto", sans-serif;
   --logo-font-family: "Raleway", sans-serif;
 }
+
 /* Global Styles */
 body {
   font-family: "Roboto", sans-serif;
@@ -38,7 +39,7 @@ body {
   letter-spacing: 1.12px;
 }
 .hero-button {
-  background: var(--ocean);
+  background: var(--iris);
   color: var(--white);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -179,8 +180,6 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  border-radius: 4px;
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
   cursor: pointer;
 }
 
@@ -194,8 +193,6 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  border-radius: 4px;
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
   cursor: pointer;
 }
 
