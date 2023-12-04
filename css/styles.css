@@ -78,14 +78,13 @@
 
 .part-one-logo {
   text-decoration: none;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   line-height: 116.667%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
   color: var(--iris);
 }
 
@@ -97,20 +96,25 @@
 }
 .part-two-logo {
   color: var(--navy-blue);
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.03em;
+  line-height: 116.667%;
   text-align: left;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
 .part-three-logo {
   color: var(--white);
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.03em;
+  line-height: 116.667%;
   text-align: left;
-  text-decoration: none;
+  text-transform: uppercase;
 }
 .nav-link {
   color: var(--navy-blue);
@@ -118,7 +122,6 @@
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
-  text-decoration: none;
 }
 
 .nav-link:hover {
@@ -140,7 +143,8 @@
 }
 
 .footer-content {
-  color: var(--white);
+  color: var(--cloude);
+  background-color: var(--navy-blue);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
